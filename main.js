@@ -86,7 +86,6 @@ function updateScreen(player){
 class Sharpshooter extends Nbaplayer{
   constructor(name){
     super(name);
-    this.name = name;
     this.passing -= 20;
     this.shooting += 40;
     this.dunking -= 30;
@@ -100,7 +99,6 @@ class Sharpshooter extends Nbaplayer{
 class Slasher extends Nbaplayer{
   constructor(name) {
     super(name);
-    this.name = name;
     this.passing += 10;
     this.shooting -= 40;
     this.dunking +=40;
@@ -114,7 +112,6 @@ class Slasher extends Nbaplayer{
 class Playmaker extends Nbaplayer{
   constructor(name) {
     super(name);
-    this.name = name;
     this.passing += 40;
     this.shooting -= 10;
     this.dunking += 20;
